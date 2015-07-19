@@ -245,6 +245,7 @@
             this.Controls.Add(this.lblFirstName);
             this.Controls.Add(this.lblHeader);
             this.Controls.Add(this.pictureBox1);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Register";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Register";

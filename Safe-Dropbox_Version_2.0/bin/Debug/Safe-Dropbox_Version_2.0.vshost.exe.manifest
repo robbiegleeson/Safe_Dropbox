@@ -128,14 +128,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Safe-Dropbox_Version_2.0.exe" size="1261048">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Safe-Dropbox_Version_2.0.exe" size="1661432">
       <assemblyIdentity name="Safe-Dropbox_Version_2.0" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>89MSSoDi+l+AlU5ptKUQXy1uBjRegS7Wl0SZjdQqhiE=</dsig:DigestValue>
+        <dsig:DigestValue>k7CzPu2eP444/q/q2cilTblt1eTD1mkA3FNHaVPJawg=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>

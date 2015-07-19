@@ -98,23 +98,15 @@ namespace Safe_Dropbox_Version_2._0
             try
             {
                 var fileBytes = File.ReadAllBytes(EncryptedFile);
-
-                
                 UserAccountManagerBLL accMan = new UserAccountManagerBLL();
                 if (accMan.InsertFile(Email, NameOfFile))
                 {
                     _Client.UploadFile("/", NameOfFile + ".sdx", fileBytes);
                     MessageBox.Show("Your file has been uploaded!");
                 }
-                
-                //GET user email for inserting into encryption table
-                //ENTER trigger to enter record into DB table
-
-                
             }
             catch (Exception)
             {
-                
                 throw;
             }
         }

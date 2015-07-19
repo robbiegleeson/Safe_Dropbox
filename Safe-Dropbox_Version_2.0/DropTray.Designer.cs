@@ -101,7 +101,7 @@
             this.tabDecrpy.Controls.Add(this.pnlDecrypt);
             this.tabDecrpy.Location = new System.Drawing.Point(4, 22);
             this.tabDecrpy.Name = "tabDecrpy";
-            this.tabDecrpy.Size = new System.Drawing.Size(222, 174);
+            this.tabDecrpy.Size = new System.Drawing.Size(230, 174);
             this.tabDecrpy.TabIndex = 2;
             this.tabDecrpy.Text = "Decrypt";
             this.tabDecrpy.UseVisualStyleBackColor = true;
@@ -136,6 +136,7 @@
             this.Controls.Add(this.btnHide);
             this.Controls.Add(this.tabControl1);
             this.Controls.Add(this.btnQuit);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "DropTray";
             this.Load += new System.EventHandler(this.DropTray_Load);
             this.tabControl1.ResumeLayout(false);
