@@ -42,6 +42,7 @@ namespace Safe_Dropbox_Version_2._0
                 dTray.Email = txtEmail.Text;
                 dTray.UserToken = userToken;
                 dTray.UserSecret = userSecret;
+                dTray.UserPassword = txtPassword.Text;
                 dTray.Show();
 
                 this.Hide();

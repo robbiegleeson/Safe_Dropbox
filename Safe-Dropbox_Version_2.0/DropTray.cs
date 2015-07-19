@@ -87,7 +87,7 @@ namespace Safe_Dropbox_Version_2._0
         {                    
             RijndaelManagedEncryption myRij = new RijndaelManagedEncryption();
             myRij.Files = FileToEncrypt;
-            myRij.Password = "Admin";
+            myRij.Password = UserPassword;
             myRij.NameOfFile = NameOfFile;
             
             EncryptedFile = myRij.EncryptFile();

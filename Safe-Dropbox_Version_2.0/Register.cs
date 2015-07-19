@@ -57,6 +57,7 @@ namespace Safe_Dropbox_Version_2._0
             
             DropTray dTray = new DropTray();
             dTray.Email = txtEmail.Text;
+            dTray.UserPassword = txtConfirmPass.Text;
             dTray.ShowDialog();
             this.Hide();
             
