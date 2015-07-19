@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<configuration>
+  <appSettings>
+    <add key="appKey" value="0uliemz9i8fdwka"/>
+    <add key="appSecret" value="036pu3cluaoc4yk"/>
+  </appSettings>
+  <connectionStrings>
+    <add name="SafeConn" connectionString="Data Source=t016zb9tab.database.windows.net,1433;Initial Catalog=SafeDropbox;User ID=SafeDropbox_Admin;Password=A57932557a"/>
+  </connectionStrings>
+  <startup>
+    <supportedRuntime version="v4.0" sku=".NETFramework,Version=v4.5"/>
+  </startup>
+</configuration>

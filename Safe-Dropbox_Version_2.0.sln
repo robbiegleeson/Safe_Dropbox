@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Safe-Dropbox_Version_2.0", "Safe-Dropbox_Version_2.0\Safe-Dropbox_Version_2.0.csproj", "{6006E254-B0F4-4034-9CA2-8B83D858D040}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SafeDropBoxBLL", "SafeDropBoxBLL\SafeDropBoxBLL.csproj", "{39955451-52CE-4349-ADA9-FC9BFF42243F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SafeDropBoxDAL", "SafeDropBoxDAL\SafeDropBoxDAL.csproj", "{A91A1E91-0278-476F-839D-4A3389FC1145}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataModels", "DataModels\DataModels.csproj", "{A6B80A14-0602-4535-8445-C0E51884F5A8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6006E254-B0F4-4034-9CA2-8B83D858D040}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6006E254-B0F4-4034-9CA2-8B83D858D040}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6006E254-B0F4-4034-9CA2-8B83D858D040}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6006E254-B0F4-4034-9CA2-8B83D858D040}.Release|Any CPU.Build.0 = Release|Any CPU
+		{39955451-52CE-4349-ADA9-FC9BFF42243F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{39955451-52CE-4349-ADA9-FC9BFF42243F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{39955451-52CE-4349-ADA9-FC9BFF42243F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{39955451-52CE-4349-ADA9-FC9BFF42243F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A91A1E91-0278-476F-839D-4A3389FC1145}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A91A1E91-0278-476F-839D-4A3389FC1145}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A91A1E91-0278-476F-839D-4A3389FC1145}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A91A1E91-0278-476F-839D-4A3389FC1145}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A6B80A14-0602-4535-8445-C0E51884F5A8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A6B80A14-0602-4535-8445-C0E51884F5A8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A6B80A14-0602-4535-8445-C0E51884F5A8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A6B80A14-0602-4535-8445-C0E51884F5A8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
