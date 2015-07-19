@@ -118,6 +118,8 @@ namespace Safe_Dropbox_Version_2._0
                 string[] files = (string[])e.Data.GetData(DataFormats.FileDrop);
                 foreach (string file in files)
                 {
+
+
                     string startPath = Path.GetFullPath(file);
                     
                     NameOfFile = Path.GetFileNameWithoutExtension(file);
