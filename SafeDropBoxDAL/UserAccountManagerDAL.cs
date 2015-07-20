@@ -50,7 +50,6 @@ namespace SafeDropBoxDLL
                     myCxn.Close();
                     
                     userCreated = true;
-
                 }
 
                 if (userCreated)
@@ -230,7 +229,7 @@ namespace SafeDropBoxDLL
 
         public bool InsertFile(string eMail, string nameOfFile)
         {
-            bool success = false;
+            
 
             using (myCxn = new MySqlConnection(this.ConnectionString))
             {

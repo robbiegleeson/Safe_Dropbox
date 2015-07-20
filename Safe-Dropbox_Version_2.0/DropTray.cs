@@ -195,7 +195,7 @@ namespace Safe_Dropbox_Version_2._0
                         var fileName = Path.GetFullPath(file);
                         FileToEncrypt = fileName;
 
-                        // Call my encryption class and pass the file into the EncryptFile() methof
+                        // Call my encryption class and pass the file into the EncryptFile() method
                         RijndaelManagedEncryption myEncryption = new RijndaelManagedEncryption();
                         sfd.ShowDialog();
                         if (sfd.ShowDialog() == DialogResult.OK)
@@ -203,7 +203,7 @@ namespace Safe_Dropbox_Version_2._0
                             myEncryption.SaveFileLocation = sfd.FileName;
                         }
                         myEncryption.Files = FileToEncrypt;
-                        myEncryption.Password = "Admin";
+                        myEncryption.Password = UserPassword;
 
                         EncryptedFile = myEncryption.DecryptFile();
                     }
