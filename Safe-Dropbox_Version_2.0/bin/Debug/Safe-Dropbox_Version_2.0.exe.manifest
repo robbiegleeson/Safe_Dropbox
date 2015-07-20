@@ -128,14 +128,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Safe-Dropbox_Version_2.0.exe" size="1661432">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Safe-Dropbox_Version_2.0.exe" size="1660416">
       <assemblyIdentity name="Safe-Dropbox_Version_2.0" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>b7aZOTbdWlvMMsUE38EwmgFSNuD5tHawtWdiZ1vMGp0=</dsig:DigestValue>
+        <dsig:DigestValue>LDIaZisJAxsvOBcHkwzND/9fpMJAJqEtvxr+CpJuN4U=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -147,7 +147,7 @@
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>aNHtTqyNu/xU7LqYp5qhSiH8KO8N6B1sV/5SYXAwH/g=</dsig:DigestValue>
+        <dsig:DigestValue>eFaSkelvce2yS0i3nU1HapmEd3zrKg2IBmBFg2Vw/Hs=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>

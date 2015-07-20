@@ -16,3 +16,12 @@ C:\Users\Rob Gleeson\Dropbox\Robs Share\Final_Project\Safe-Dropbox Final Version
 C:\Users\Rob Gleeson\Dropbox\Robs Share\Final_Project\Safe-Dropbox Final Version\Safe-Dropbox Version 2.0\Safe-Dropbox_Version_2.0\SafeDropBoxBLL\obj\Debug\SafeDropBoxBLL.csprojResolveAssemblyReference.cache
 C:\Users\Rob Gleeson\Dropbox\Robs Share\Final_Project\Safe-Dropbox Final Version\Safe-Dropbox Version 2.0\Safe-Dropbox_Version_2.0\SafeDropBoxBLL\obj\Debug\SafeDropBoxBLL.dll
 C:\Users\Rob Gleeson\Dropbox\Robs Share\Final_Project\Safe-Dropbox Final Version\Safe-Dropbox Version 2.0\Safe-Dropbox_Version_2.0\SafeDropBoxBLL\obj\Debug\SafeDropBoxBLL.pdb
+C:\Users\rgleeson\Dropbox\Robs Share\Final_Project\Safe-Dropbox Final Version\Safe-Dropbox Version 2.0\Safe-Dropbox_Version_2.0\SafeDropBoxBLL\bin\Debug\SafeDropBoxBLL.dll
+C:\Users\rgleeson\Dropbox\Robs Share\Final_Project\Safe-Dropbox Final Version\Safe-Dropbox Version 2.0\Safe-Dropbox_Version_2.0\SafeDropBoxBLL\bin\Debug\SafeDropBoxBLL.pdb
+C:\Users\rgleeson\Dropbox\Robs Share\Final_Project\Safe-Dropbox Final Version\Safe-Dropbox Version 2.0\Safe-Dropbox_Version_2.0\SafeDropBoxBLL\bin\Debug\DataModels.dll
+C:\Users\rgleeson\Dropbox\Robs Share\Final_Project\Safe-Dropbox Final Version\Safe-Dropbox Version 2.0\Safe-Dropbox_Version_2.0\SafeDropBoxBLL\bin\Debug\SafeDropBoxDAL.dll
+C:\Users\rgleeson\Dropbox\Robs Share\Final_Project\Safe-Dropbox Final Version\Safe-Dropbox Version 2.0\Safe-Dropbox_Version_2.0\SafeDropBoxBLL\bin\Debug\DataModels.pdb
+C:\Users\rgleeson\Dropbox\Robs Share\Final_Project\Safe-Dropbox Final Version\Safe-Dropbox Version 2.0\Safe-Dropbox_Version_2.0\SafeDropBoxBLL\bin\Debug\SafeDropBoxDAL.pdb
+C:\Users\rgleeson\Dropbox\Robs Share\Final_Project\Safe-Dropbox Final Version\Safe-Dropbox Version 2.0\Safe-Dropbox_Version_2.0\SafeDropBoxBLL\obj\Debug\SafeDropBoxBLL.csprojResolveAssemblyReference.cache
+C:\Users\rgleeson\Dropbox\Robs Share\Final_Project\Safe-Dropbox Final Version\Safe-Dropbox Version 2.0\Safe-Dropbox_Version_2.0\SafeDropBoxBLL\obj\Debug\SafeDropBoxBLL.dll
+C:\Users\rgleeson\Dropbox\Robs Share\Final_Project\Safe-Dropbox Final Version\Safe-Dropbox Version 2.0\Safe-Dropbox_Version_2.0\SafeDropBoxBLL\obj\Debug\SafeDropBoxBLL.pdb

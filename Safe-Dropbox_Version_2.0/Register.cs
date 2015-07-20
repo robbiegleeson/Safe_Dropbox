@@ -34,7 +34,7 @@ namespace Safe_Dropbox_Version_2._0
 
             if (txtPassword.Text == txtConfirmPass.Text)
             {
-                newUser.Password = EncryptPassword.Encrypt(txtConfirmPass.Text);
+                newUser.Password = txtConfirmPass.Text; //EncryptPassword.Encrypt(txtConfirmPass.Text);
 
                 if (accountBLL.NewUser(newUser))
                 {
