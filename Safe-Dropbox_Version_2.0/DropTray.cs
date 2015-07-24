@@ -20,6 +20,10 @@ using SafeDropBoxBLL;
 
 namespace Safe_Dropbox_Version_2._0
 {
+    /// <summary>
+    /// When DropTray is loaded the userToken and userSecret are retrieved from the database. This class compresses, encrypts
+    /// and uploads data to Dropbox. 
+    /// </summary>
     public partial class DropTray : Form
     {
         public string NameOfFile { get; set; }
@@ -64,8 +68,10 @@ namespace Safe_Dropbox_Version_2._0
             }
         }
 
+        
         private void pnlDropTray_DragDrop(object sender, DragEventArgs e)
         {
+            // Drag and Drop events fired
             Zip(e);
             EncryptFile();
             UploadFile();
@@ -84,17 +90,19 @@ namespace Safe_Dropbox_Version_2._0
         }
 
         private void EncryptFile()
-        {                    
+        {   // Information passed into encryption class in order to perform transformation                 
             RijndaelManagedEncryption myRij = new RijndaelManagedEncryption();
             myRij.Files = FileToEncrypt;
             myRij.Password = UserPassword;
             myRij.NameOfFile = NameOfFile;
             
+            // Returns path of encrypted file
             EncryptedFile = myRij.EncryptFile();
         }
 
         private void UploadFile()
         {
+            // Encrypted file is uplodaded to Dropbox and a record is added to the database.
             try
             {
                 var fileBytes = File.ReadAllBytes(EncryptedFile);
@@ -111,6 +119,7 @@ namespace Safe_Dropbox_Version_2._0
             }
         }
 
+        // Compress data before encryption and uploading to Dropbox
         private void Zip(DragEventArgs e)
         {
             if (e.Data.GetDataPresent(DataFormats.FileDrop))
@@ -118,8 +127,6 @@ namespace Safe_Dropbox_Version_2._0
                 string[] files = (string[])e.Data.GetData(DataFormats.FileDrop);
                 foreach (string file in files)
                 {
-
-
                     string startPath = Path.GetFullPath(file);
                     
                     NameOfFile = Path.GetFileNameWithoutExtension(file);
@@ -223,6 +230,7 @@ namespace Safe_Dropbox_Version_2._0
             }
         }
 
+        //Application displays icon in start tray when is minimized.
         private void btnHide_Click(object sender, EventArgs e)
         {
             notifyIcon1.Visible = true;

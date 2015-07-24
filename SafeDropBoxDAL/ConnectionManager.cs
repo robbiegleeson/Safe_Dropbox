@@ -10,7 +10,6 @@ namespace SafeDropBoxDLL
     public class ConnectionManager
     {
         string connString = ConfigurationManager.ConnectionStrings["SafeConn"].ConnectionString;
-
         public string ConnectionString
         {
             get
@@ -22,6 +21,5 @@ namespace SafeDropBoxDLL
                 connString = value;
             }
         }
-
     }
 }

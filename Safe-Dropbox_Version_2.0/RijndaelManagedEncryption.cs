@@ -8,6 +8,9 @@ using System.Threading.Tasks;
 
 namespace Safe_Dropbox_Version_2._0
 {
+    /// <summary>
+    /// RijndaelManagedEncryption class encrypts and decrypts data that has been previously compresses.
+    /// </summary>
     public class RijndaelManagedEncryption
     {
         public string Files { get; set; }
@@ -17,7 +20,9 @@ namespace Safe_Dropbox_Version_2._0
 
         public string EncryptFile()
         {
+            //Byte array consisting of data from file
             byte[] bytesToBeEncrypted = File.ReadAllBytes(Files);
+            //Password byte array based on original user password
             byte[] passwordBytes = Encoding.UTF8.GetBytes(Password);
 
             passwordBytes = SHA256.Create().ComputeHash(passwordBytes);
@@ -47,11 +52,14 @@ namespace Safe_Dropbox_Version_2._0
         {
             byte[] encryptedBytes = null;
 
+            // Set your salt here, change it to meet your needs:
+            // The salt bytes must be at least 8 bytes.
             byte[] saltBytes = new byte[] { 1, 2, 3, 4, 5, 6, 7, 8 };
             using (MemoryStream ms = new MemoryStream())
             {
                 using (RijndaelManaged AES = new RijndaelManaged())
                 {
+                    // Key and block size set here, larger the key and block size the better the encryption
                     AES.KeySize = 256;
                     AES.BlockSize = 128;
 
@@ -76,7 +84,7 @@ namespace Safe_Dropbox_Version_2._0
         {
             byte[] decryptedBytes = null;
 
-            // Set your salt here, change it to meet your flavor:
+            // Set your salt here, change it to meet your needs:
             // The salt bytes must be at least 8 bytes.
             byte[] saltBytes = new byte[] { 1, 2, 3, 4, 5, 6, 7, 8 };
 
@@ -84,6 +92,7 @@ namespace Safe_Dropbox_Version_2._0
             {
                 using (RijndaelManaged AES = new RijndaelManaged())
                 {
+                    // Key and block size set here, larger the key and block size the better the decryption
                     AES.KeySize = 256;
                     AES.BlockSize = 128;
 

@@ -13,6 +13,10 @@ using MySql.Data.MySqlClient;
 
 namespace SafeDropBoxDLL
 {
+    /// <summary>
+    /// UserAccountManagerDAL contains all stored procedures. These methods return a true or false condition to the business logic
+    /// layer which in turn returns that result to the calling method.
+    /// </summary>
     public class UserAccountManagerDAL : ConnectionManager
     {
         SqlConnection cxn;

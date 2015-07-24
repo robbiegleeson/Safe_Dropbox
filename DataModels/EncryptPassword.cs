@@ -8,6 +8,9 @@ using System.IO;
 
 namespace DataModels
 {
+    /// <summary>
+    /// Class to encrypt password using SHA1 encryption.
+    /// </summary>
     public class EncryptPassword
     {
         public static string Encrypt(string input)

@@ -12,6 +12,12 @@ using System.Windows.Forms;
 
 namespace Safe_Dropbox_Version_2._0
 {
+    /// <summary>
+    /// Login form takes user input, calles UserLogin method that confirms username and password and redirects to DropTray.
+    /// Oce the username and password are confirmed, userToken and userSecret values are retrieved from the datbase for
+    /// use by the DropNet library which is essential to interact with Dropbox. If these values don't exist the user will
+    /// be unable to upload to dropbox.
+    /// </summary>
     public partial class Login : Form
     {
         UserAccountManagerBLL accountManager = new UserAccountManagerBLL();

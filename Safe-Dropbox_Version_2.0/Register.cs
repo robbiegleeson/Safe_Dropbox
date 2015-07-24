@@ -13,6 +13,10 @@ using System.Text.RegularExpressions;
 
 namespace Safe_Dropbox_Version_2._0
 {
+    /// <summary>
+    /// Registration class registers a new user with the application as well as calling the DropboxAccess.cs class that links
+    /// the users Dropbox account with the application.
+    /// </summary>
     public partial class Register : Form
     {
         public Form MainForm { get; set; }
@@ -31,7 +35,7 @@ namespace Safe_Dropbox_Version_2._0
             newUser.FirstName = txtFname.Text;
             newUser.Surname = txtSname.Text;
             newUser.Email = txtEmail.Text;
-
+            // Userpassword is encrypted using SHA1();
             if (txtPassword.Text == txtConfirmPass.Text)
             {
                 newUser.Password = txtConfirmPass.Text; //EncryptPassword.Encrypt(txtConfirmPass.Text);

@@ -9,6 +9,9 @@ namespace DataModels
 {
     public class Users
     {
+        /// <summary>
+        /// Properties to set User object
+        /// </summary>
         public int UserID { get; set; }
         public string FirstName { get; set; }
         public string Surname { get; set; }
